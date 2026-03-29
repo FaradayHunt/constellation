@@ -1,0 +1,17 @@
+node_modules/
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+unified-constellation.json
+*.bak
+*.bak*
+constellation-gaps.md
+session-capture-state.json
+heartbeat-state.json
+*.log
+.env
+# Data files (personal memory)
+*.md
+!README.md
+brain-web/

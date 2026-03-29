@@ -1,0 +1,19 @@
+{
+  "name": "constellation",
+  "version": "1.0.0",
+  "description": "Knowledge graph memory system for AI agents — semantic search, graph traversal, auto-ingestion",
+  "main": "constellation.js",
+  "scripts": {
+    "query": "node constellation.js query",
+    "ingest": "node constellation.js ingest",
+    "stats": "node constellation.js stats",
+    "rebuild": "node constellation.js rebuild"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "license": "MIT"
+}
